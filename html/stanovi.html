@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stanovi</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+
+    <div class="logo">
+      Lux Nekretnine
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="stanovi.html">Stanovi</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+
+    <div class="menu-btn" id="menuBtn">☰</div>
+
+  </nav>
+</header>
+
+<section class="apartments-page">
+
+  <h1>Ekskluzivna Ponuda Stanova</h1>
+
+  <p class="subtitle">
+    Izaberite idealan stan za vas i vašu porodicu
+  </p>
+
+  <div class="buttons">
+
+    <button onclick="filterApartments('all')">
+      Svi Stanovi
+    </button>
+
+    <button onclick="filterApartments('lux')">
+      Luksuzni
+    </button>
+
+    <button onclick="filterApartments('family')">
+      Porodični
+    </button>
+
+    <button onclick="filterApartments('small')">
+      Garsonjere
+    </button>
+
+    <button id="themeBtn">
+      Dark Mode
+    </button>
+
+  </div>
+
+  <div class="apartments-container" id="apartmentsContainer">
+
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Lux Nekretnine</p>
+</footer>
+
+<script src="/java/javascript.js"></script>
+
+<div class="search-box">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Pretraži stanove..."
+    >
+
+  </div>
+<p class="subtitle"></p>
+
+
+
+</body>
+</html>
